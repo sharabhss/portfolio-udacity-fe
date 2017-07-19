@@ -1,0 +1,141 @@
+img, embed, object, video {
+	max-width: 100%;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	background-color: lavender;
+}
+hr {
+	border: none;
+	height: 2px;
+	color: black;
+	background-color: black;
+}
+.logo-placement {
+	float: left;
+	overflow: hidden;
+}
+.page-title, .page-subtitle {
+	color: slategray;
+}
+.navbar .navbar-nav {
+	display: block;
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 0.2em;
+}
+.navbar-nav>li {
+	display: inline-block;
+	float: none;
+}
+.content-header {
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.project-name {
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	color: tomato;
+}
+.project-web-link {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.img-project {
+	width: 100%;
+	margin: auto;
+}
+.img-lion {
+	background: #fbed28;
+}
+.img-carousel {
+	width: 100%;
+}
+.carousel {
+	width: 100%;
+	margin: auto;
+}
+.footer-row {
+	margin-bottom: 75px;
+	font-weight: bold;
+	color: slategray;
+}
+
+/*breakpoints*/
+
+@media screen and (max-width: 484px) {
+	.logo-site {
+		max-width: 45px;
+	}
+	.page-title {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.page-subtitle {
+		font-size: 10px;
+	}
+	.img-project {
+		width: 40%;
+	}
+}
+@media screen and (min-width: 485px) {
+	.logo-site {
+		max-width: 90px;
+	}
+	.page-title {
+		font-size: 33px;
+		font-weight: bold;
+	}
+	.page-subtitle {
+		font-size: 20px;
+	}
+	.img-project {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 700px) {
+	.logo-site {
+		max-width: 135px;
+	}
+	.page-title {
+		font-size: 50px;
+		font-weight: bold;
+	}
+	.page-subtitle {
+		font-size: 30px;
+	}
+	.img-project {
+		width: 60%;
+	}
+	.carousel {
+		width: 85%;
+	}
+}
+@media screen and (min-width: 990px) {
+	.logo-site {
+		max-width: 215px;
+	}
+	.page-title {
+		font-size: 65px;
+		font-weight: bold;
+	}
+	.page-subtitle {
+		font-size: 39px;
+	}
+	.img-project {
+		width: 100%;
+	}
+	.carousel {
+		width: 70%;
+	}
+	.footer-row {
+		margin-bottom: 175px;
+	}
+}
